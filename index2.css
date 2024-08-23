@@ -1,0 +1,118 @@
+/*    Final Project
+
+      Author: Dorothy Hill, July 10, 2024, IST239-W01, Final Project
+
+      In the final project I will showcase my skills based on what
+      I have learned during the semester. This part of the project
+      shows the interactive skills by incorporating a game into the
+      code.
+
+      Filename:       index3.css
+ */
+
+/* Body Style */
+body{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    text-align: center;
+    color: black;
+    font-size: 18pt;
+}
+
+/* Header Style*/
+header{
+    background-image: url('background1.jpg');
+    line-height: 5em;
+}
+
+/* Navigation style*/
+header ul{
+    list-style: none;
+}
+
+ul#menu > li {
+    display: block;
+    width: 7%;
+    float: right;
+    text-align: center;
+    background-color: rosybrown;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border: 2px solid pink;
+    line-height: 18px;
+}
+
+/* hyperlink style*/
+a:link{
+    text-decoration: none;
+}
+
+a{
+    color: mintcream;
+}
+
+/* Paragraph Style*/
+p{
+    text-align: center;
+    font-size: 15pt;
+}
+
+/* div style*/
+div h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px 230px 30px;
+}
+
+
+
+/* Footer layout and Style */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: .5px;
+}
+
+/* input style */
+#input {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/* button style */
+#submitBtn, #restartBtn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: pink;
+    background-color: rosybrown;
+}
+
+/* word style */
+#word {
+    font-size: 25px;
+    color: crimson;
+}
+/* message style*/
+#message {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* timers style*/
+#timer {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}

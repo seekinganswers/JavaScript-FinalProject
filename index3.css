@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*    Final Project
+
+      Author: Dorothy Hill, July 10, 2024, IST239-W01, Final Project
+
+      In the final project I will showcase my skills based on what
+      I have learned during the semester. There are interactive
+      elements, navigations, and a host of information about
+      my projects during the semester as well as information
+      on me.
+
+      Filename:       index3.css
+ */
+
+/* webpage style*/
+*{
+    box-sizing: border-box;
+}
+
+
+/* Body Style */
+body{
+    background: linear-gradient(to right, rgb(235, 206, 218), white);
+    margin: 0 auto;
+    line-height: 1;
+    width: 975px;
+}
+
+/* header style */
+.header{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 10px solid mintcream;
+}
+
+header h1{
+    font-size: 65px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 15px;
+}
+/* header paragraph style */
+header p{
+    font-size: 25px;
+    text-align: center;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+/* navigation style*/
+header ul{
+    list-style: none;
+}
+
+ul#menu > li {
+    display: block;
+    width: 10%;
+    float: right;
+    text-align: center;
+    background-color: rosybrown;
+    position: relative;
+    cursor: pointer;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    line-height: 18px;
+    color: mintcream;
+}
+
+/* hyperlink style*/
+a:link{
+    text-decoration: none;
+}
+
+nav a{
+    color: mintcream;
+}
+
+a{
+    color: cornflowerblue;
+}
+
+/* article paragraph style */
+article p{
+    padding: .5rem;
+    font-size: 25px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    display: block;
+}
+/* article block style */
+article {
+    padding: .5rem;
+    display: block;
+    border-top: 10px solid mintcream;
+}
+
+article h2{
+    font-size: 35px;
+}
+
+/* Paragraph image style */
+
+.img--left-align, .img--left-align2, .img--left-align3 {
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid mintcream;
+}
+
+.img--left-align figcaption,
+.img--left-align2 figcaption,
+.img--left-align3 figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container1::after,
+.container2::after,
+.container3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* div header element*/
+div h3{
+    font-size: 25px;
+}
+/* div image styles*/
+
+#container{
+    width: 600px;
+    height: 455px;
+    border: 2px solid mintcream;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: mintcream;
+    padding-bottom: 15px;
+}
+
+/* image style */
+#image img{
+    max-width: 100%;
+    max-height: 300px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+/* button style*/
+#controls button {
+    background-color: rosybrown;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Footer layout and Style */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
